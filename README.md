@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Ayako-Yokoe/rest-countries-api-with-color-theme-switcher-master)
+- Live Site URL: [Vercel](https://rest-countries-api-with-color-theme-jade.vercel.app/)
 
 ## My process
 
