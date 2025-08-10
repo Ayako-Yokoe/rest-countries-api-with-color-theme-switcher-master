@@ -1,0 +1,67 @@
+:root {
+  --color-blue-900-dark-mode-elements: hsl(209, 23%, 22%);
+  --color-blue-950-dark-mode-background: hsl(207, 26%, 17%);
+  
+  --color-grey-950-light-mode-text: hsl(200, 15%, 8%);
+  --color-grey-400-light-mode-input: hsl(0, 0%, 50%);
+  --color-grey-50-light-mode-background: hsl(0, 0%, 99%);
+  /* Dark Mode Text & Light Mode Elements */
+  --color-white: hsl(0, 100%, 100%);
+
+  --font-size-hp: 14px;
+  --font-size-detail: 16px;
+
+  --font-weight-300: 300;
+  --font-weight-600: 600;
+  --font-weight-800: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  max-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
